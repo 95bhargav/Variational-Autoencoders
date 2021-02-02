@@ -17,9 +17,11 @@
  
 
 This is my best attempt at reproducing the images using a conv-autoencoder for code size of 2x2 features.
-Dataset         - STL10
-Loss Criterion  - MSE Loss(0.0028)
-Network Type    - Simple Convolutional Network
+
+| Dataset         | STL10                        |
+| :-------------: | :--------------------------: |
+| Loss Criterion  | MSE Loss(0.0028)             |
+| Network Type    | Simple Convolutional Network |
 
 <p>
   <img src="Feature_size_2x2/train_epoch_993_stl.png" align="middle" width="90%" alt= "Reconstructions"/>
@@ -41,11 +43,17 @@ Network Type    - Simple Convolutional Network
  more features on last part of encoder
 - I have also made only the decoder part of network conditional by supplying additional labels. (previous experiments \
  of making the whole network conditional also gives same results).
+- Tried using Resnet Type network for encoder but should work fine with normal encoders also.
  
-Dataset         - Cifar10
-Loss Criterion  - Kl+MSE loss (~13000) 
-Feature size    - 40
-Network Type    - VAE
+|  Dataset        |         Cifar10              |
+| :-------------: | :--------------------------: |
+| Loss Criterion  | Kl+MSE loss (~13000)         |
+| Feature size    | 40                           |
+| Network Type    | VAE                          |
+         - 
+  -  
+    - 
+Network Type    - 
  
 <p>
   <img src="vae/train_epoch_99.png" align="middle" width="90%" alt= "Reconstructions"/>
