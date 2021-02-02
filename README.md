@@ -50,11 +50,7 @@ This is my best attempt at reproducing the images using a conv-autoencoder for c
 | Loss Criterion  | Kl+MSE loss (~13000)         |
 | Feature size    | 40                           |
 | Network Type    | VAE                          |
-         - 
-  -  
-    - 
-Network Type    - 
- 
+
 <p>
   <img src="vae/train_epoch_99.png" align="middle" width="90%" alt= "Reconstructions"/>
 </p> 
@@ -63,7 +59,7 @@ Network Type    -
 
 
 <p>
-  <img src="vae/test_epoch_99.png" align="middle" width="90%" alt= "Reconstructions"/>
+  <img src="vae/test_epoch_99.png" align="middle" width="90%" height = "60%" alt= "Reconstructions"/>
 </p>
 
 I know it is not the best but it created this only using 40 features and also for a complex dataset then MNIST. 
